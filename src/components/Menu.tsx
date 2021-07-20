@@ -17,6 +17,7 @@ const Menu = (props: MenuType) => {
                 {props.items.map(el => <li className={s.li}><a className={s.a} href="#">{el.title}</a></li>)}
             </ul>
 
+
         </div>
     );
 };
