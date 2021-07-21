@@ -1,0 +1,35 @@
+.h3 {
+    font-weight: 700;
+    font-size: 35px;
+    margin: 0 0 10px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0 10px;
+    /*    text-transform: uppercase;*/
+}
+
+.h3:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 2px;
+    background: #d9832e;
+    width: 50px;
+}
+
+.subTitle {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+@media (max-width: 575.98px){
+    .h3{
+        font-size: 25px;
+    }
+    .name {
+        font-size: 25px;
+    }
+
+}

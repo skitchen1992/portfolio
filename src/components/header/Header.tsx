@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Header.module.css'
-import {ItemsType} from "../App";
+import {ItemsType} from "../../App";
 
 
 

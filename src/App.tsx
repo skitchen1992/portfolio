@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 import s from './App.module.css'
-import Header from "./components/Header";
-import Menu from "./components/Menu";
+import Header from "./components/header/Header";
+import Menu from "./components/menu/Menu";
+import AboutMe from "./components/aboutMe/AboutMe";
+import MySkills from "./components/mySkills/MySkills";
 
 type MenuType = {
     title: string,
@@ -24,12 +26,17 @@ function App() {
 
 
     return (
-
-        <div className={s.page}>
-            <Header items={items} active={menuActive} isBurgerActive={isBurgerActive}/>
-            <Menu active={menuActive} isBurgerActive={isBurgerActive} items={items}/>
-        </div>
-
+        <>
+            <div className={s.page}>
+                <Header items={items} active={menuActive} isBurgerActive={isBurgerActive}/>
+                <Menu active={menuActive} isBurgerActive={isBurgerActive} items={items}/>
+                <h1 className={s.title}>
+                    <span>React developer</span>
+                </h1>
+            </div>
+            <AboutMe/>
+            <MySkills/>
+        </>
 
     );
 }

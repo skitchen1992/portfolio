@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Menu.module.css'
-import {ItemsType} from "../App";
+import {ItemsType} from "../../App";
 
 
 type MenuType = {

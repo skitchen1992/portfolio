@@ -2,3 +2,31 @@
     background: url('img/slide-bg-1.jpg') center center/cover no-repeat ;
     height: 100vh;
 }
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 22rem;
+    color: #ffffff;
+    font-size: 6vw;
+    font-family: 'Montserrat', helvetica;
+    line-height: 7.91666667vw;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+@media (max-width: 360px){
+.title{
+    padding-top: 17rem;
+}
+
+
+}
+@media (max-width: 375px){
+    .title{
+        padding-top: 19rem;
+        font-size: 8vw;
+    }
+
+
+}
