@@ -15,18 +15,20 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
-@media (max-width: 360px){
-.title{
-    padding-top: 17rem;
-}
 
 
-}
+
+
 @media (max-width: 375px){
     .title{
         padding-top: 19rem;
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
-
+}
+@media (max-width: 360px) {
+    .title {
+        padding-top: 17rem;
+        font-size: 6vw;
+    }
 }
