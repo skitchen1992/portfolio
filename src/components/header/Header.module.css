@@ -29,8 +29,8 @@
     font-size: 34px;
     font-weight: 700;
     color: white;
-
     text-decoration: none;
+    transition: all .2s
 }
 .logo2{
     font-family: 'Montserrat', helvetica;
@@ -38,6 +38,7 @@
     font-weight: 700;
     color: black;
     text-decoration: none;
+    transition: all .2s
 }
 .nav{
     display: flex;
@@ -81,7 +82,7 @@
     width: 25px;
     height: 25px;
     cursor: pointer;
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 
 }
 .menuBtnBurger {
@@ -89,7 +90,7 @@
     height: 2px;
     border-radius: 2px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
     background-color: white;
 }
 
@@ -102,7 +103,7 @@
     background-color: white;
     border-radius: 2px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .menuBtnBurger::before {
     transform: translateY(-8px);
@@ -129,7 +130,7 @@
 
     border-radius: 2px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
     background-color: black;
 }
 
@@ -142,7 +143,7 @@
     background-color: black;
     border-radius: 2px;
     box-shadow: 0 2px 5px rgba(255,101,47,.2);
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .menuBtnBurger2::before {
     transform: translateY(-8px);
