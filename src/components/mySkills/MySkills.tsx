@@ -46,7 +46,7 @@ const MySkills = () => {
     ]
     return (
         <div className={s.wrapper}>
-            <section>
+            <section id={"MySkills"}>
                 <ContainerTitle title={title} description={description}/>
                 <div className={s.wrap}>
                     {mySkills.map(el => <MySkillsBlock logo={el.logo} title={el.title} text={el.text}/>)}

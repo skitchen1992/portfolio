@@ -1,0 +1,21 @@
+.wrapper {
+   display:flex ;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #f9f9f9;;
+
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.wrap a{
+margin: 0 5px;
+}
+.footerText{
+    font-size: 14px;
+    color: #898989;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}

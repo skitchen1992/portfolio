@@ -31,7 +31,7 @@ const RecentWorks = () => {
     ]
     return (
         <div className={s.wrapper}>
-            <section>
+            <section id="RecentWorks">
                 <ContainerTitle title={title} description={description}/>
                 <div className={s.wrap}>
                     {myWorks.map(el=><Works logo={el.logo} title={el.title} text={el.text}/>)}
