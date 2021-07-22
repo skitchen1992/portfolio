@@ -1,0 +1,22 @@
+.wrapper {
+    padding: 100px 0;
+    background-color: #ffffff;;
+
+
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 100%;
+}
+@media (max-width: 360px){
+
+
+
+}
+@media (max-width: 375px){
+
+
+
+}

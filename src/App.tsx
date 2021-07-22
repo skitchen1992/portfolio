@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Menu from "./components/menu/Menu";
 import AboutMe from "./components/aboutMe/AboutMe";
 import MySkills from "./components/mySkills/MySkills";
+import RecentWorks from "./components/RecentWorks/RecentWorks";
 
 type MenuType = {
     title: string,
@@ -30,12 +31,16 @@ function App() {
             <div className={s.page}>
                 <Header items={items} active={menuActive} isBurgerActive={isBurgerActive}/>
                 <Menu active={menuActive} isBurgerActive={isBurgerActive} items={items}/>
-                <h1 className={s.title}>
-                    <span>React developer</span>
-                </h1>
+                 <section>
+                     <h1 className={s.title}>
+                        <span>React developer</span>
+                     </h1>
+                 </section>
+
             </div>
             <AboutMe/>
             <MySkills/>
+            <RecentWorks/>
         </>
 
     );

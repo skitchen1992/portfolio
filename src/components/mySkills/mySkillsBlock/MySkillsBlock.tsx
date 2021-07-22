@@ -1,10 +1,19 @@
 import React from 'react';
 import s from "./MySkillsBlock.module.css"
-import Logo from "../../../img/Logo/cssLogo.svg"
-const MySkillsBlock = () => {
+
+
+type MySkillsBlock = {
+    logo:any,
+    title:string,
+    text:string
+}
+
+const MySkillsBlock = (props:MySkillsBlock ) => {
     return (
         <div className={s.wrapper}>
-            <img src={Logo }/>
+            <img className={s.img} src={props.logo }/>
+            <div className={s.skillName}>{props.title}</div>
+            <div className={s.text}>{props.text}</div>
         </div>
     );
 };

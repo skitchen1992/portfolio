@@ -1,4 +1,40 @@
 .wrapper {
-    width: 33.332%;
+
+    width: 33.3%;
+    overflow-wrap: break-word;
+    padding: 25px 50px  25px 0;
+}
+.skillName{
+    margin: 10px 0;
+
+    font-size: 14px;
+    color: #292929;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.text{
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+.img{
+    width: 50px;
+    height: 50px;
 }
 
+@media (max-width: 991.98px) {
+    .wrapper {
+
+        width: 50%;
+
+    }
+}
+
+@media (max-width: 767.98px){
+    .wrapper {
+
+        width: 100%;
+        padding: 25px 0px  25px 0;
+    }
+}

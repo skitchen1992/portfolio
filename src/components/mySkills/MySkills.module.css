@@ -13,3 +13,12 @@
     vertical-align: top;
     padding: 0 0 10px;
 }
+.wrap{
+/*    display: flex;
+    justify-content: space-between;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 100%;
+
+}
