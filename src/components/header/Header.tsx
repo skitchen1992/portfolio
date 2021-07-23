@@ -15,7 +15,6 @@ const Header = (props: MenuType) => {
 
 
     const finalClassBurger = `${props.active && s.open} ${s.menuBtn}`
- /*   const finalClassBurger2 = `${props.isHeader && s.open} ${s.menuBtn2}`*/
     const finalClassHeader = `${props.isHeader ? s.header : s.header2}`
     const finalClassLogo = `${props.isHeader ? s.logo : s.logo2}`
     const finalClassNav = `${props.isHeader ? s.a : s.a2}`
@@ -28,7 +27,7 @@ const Header = (props: MenuType) => {
                     <div><a className={finalClassLogo} href="#">H.</a></div>
                     <div className={s.topMenu}>
                         <ul className={s.ul}>
-                            {props.items.map(el => <li><Link offset={-175} spy to={el.href} activeClass={s.active}
+                            {props.items.map(el => <li><Link offset={-180} spy to={el.href} activeClass={s.active}
                                                              className={finalClassNav} href="#">{el.title}</Link></li>)}
                         </ul>
                     </div>

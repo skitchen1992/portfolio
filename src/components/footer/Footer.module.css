@@ -19,3 +19,14 @@ margin: 0 5px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+@media (min-width: 360px){
+    .wrapper {
+
+        padding: 50px 0;
+
+
+    }
+    .wrap a{
+        margin: 0 15px;
+    }
+}
