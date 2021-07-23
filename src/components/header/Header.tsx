@@ -27,7 +27,7 @@ const Header = (props: MenuType) => {
                     <div><a className={finalClassLogo} href="#">H.</a></div>
                     <div className={s.topMenu}>
                         <ul className={s.ul}>
-                            {props.items.map(el => <li><Link offset={-180} spy to={el.href} activeClass={s.active}
+                            {props.items.map(el => <li><Link offset={-190} spy to={el.href} activeClass={s.active}
                                                              className={finalClassNav} href="#">{el.title}</Link></li>)}
                         </ul>
                     </div>

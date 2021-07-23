@@ -5,7 +5,10 @@
 *::after {
     box-sizing: border-box;
 }
-
+*{font-family:Roboto,sans-serif
+;}
+/**{font-family:Nunito Sans,sans-serif
+;}*/
 /* Убираем внутренние отступы */
 ul[class],
 ol[class] {
