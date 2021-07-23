@@ -24,7 +24,7 @@ function App() {
         setMenuActive(!menuActive)
     }
     const [isHeader, setHeader] = useState(true)
-    const listenScrollEvent = (event:any) => {
+    const listenScrollEvent = (event: any) => {
         if (window.scrollY < 10) {
             return setHeader(true)
         } else if (window.scrollY > 10) {
@@ -45,13 +45,12 @@ function App() {
             <div className={s.page}>
                 <Header items={items} active={menuActive} isBurgerActive={isBurgerActive} isHeader={isHeader}/>
                 <Menu active={menuActive} isBurgerActive={isBurgerActive} items={items}/>
-                 <section>
-                     <h1 className={s.title}>
-                        <span>React developer</span>
-                     </h1>
-                 </section>
+                <section>
+                    <h1 className={s.title}>
+                        React developer
+                    </h1>
+                </section>
             </div>
-
             <AboutMe/>
             <MySkills/>
             <RecentWorks/>

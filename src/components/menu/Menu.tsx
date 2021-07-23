@@ -15,11 +15,11 @@ const Menu = (props: MenuType) => {
         <div className={`${s.menuContent} ${props.active && s.active}`} onClick={e => e.stopPropagation()}>
 
             <ul className={s.ul}>
-                {props.items.map(el => <li className={s.li}><Link onClick={props.isBurgerActive} offset={-175} spy={true} duration={500} to={el.href}
+                {props.items.map(el => <li className={s.li}><Link onClick={props.isBurgerActive} offset={-175}
+                                                                  spy={true} duration={500} to={el.href}
                                                                   activeClass={s.active} className={s.a}
                                                                   href="#">{el.title}</Link></li>)}
             </ul>
-
 
         </div>
     );

@@ -54,7 +54,7 @@
 }
 
 .aboutListRowTitle {
-    width: 85px;
+    width: 90px;
     border-right: 1px solid black;
     margin: 5px;
     color: #090a0c;
@@ -87,5 +87,8 @@
     }
     .photo {
         max-width: 100%;
+    }
+    .aboutListRowValue {
+        padding-left: 0px;
     }
 }
