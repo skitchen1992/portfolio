@@ -8,24 +8,15 @@
 }
 
 .photo {
-    border: 14px solid #ffffff;
+    border: 25px solid #ffffff;
     border-radius: 5px;
-  /*  position: relative;*/
     box-shadow: 0px 3px 10px 0px rgb(38 59 94);
     max-width: 35%;
     margin: 45px 15px 15px 15px;
-
-}
-
-.img {
-
-    /*max-width: 50%;*/
 }
 
 .info {
     margin: 15px;
-
-
 }
 
 .name {
@@ -71,23 +62,27 @@
 
 @media (max-width: 991.98px) {
     .aboutMe {
-       flex-direction: column;
+        flex-direction: column;
     }
     .photo {
         max-width: 50%;
     }
 
 }
-@media (max-width: 575.98px){
+
+@media (max-width: 575.98px) {
     .aboutList {
         flex-direction: column;
     }
+
     .name {
         font-size: 25px;
     }
+
     .photo {
         max-width: 100%;
     }
+
     .aboutListRowValue {
         padding-left: 0px;
     }

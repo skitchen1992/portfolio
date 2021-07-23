@@ -7,28 +7,26 @@
     justify-content: center;
     padding-top: 22rem;
     color: #ffffff;
-    font-size: 6vw;
-    font-family: 'Montserrat', helvetica;
+    font-size: 4vw;
     line-height: 7.91666667vw;
-    color: #ffffff;
     font-weight: 400;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
 
 
-
-
-@media (max-width: 375px){
-    .title{
-        padding-top: 19rem;
-        font-size: 4vw;
-    }
-
-}
-@media (max-width: 360px) {
+@media (max-width: 575.98px){
     .title {
         padding-top: 17rem;
+        font-size: 5vw;
+    }
+}
+@media (max-width: 360px) {
+    section {
+        padding: 0 calc(50% - 150px);
+    }
+    .title {
+        padding-top: 16rem;
         font-size: 6vw;
     }
 }

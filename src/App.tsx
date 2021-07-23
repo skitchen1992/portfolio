@@ -6,7 +6,7 @@ import AboutMe from "./components/aboutMe/AboutMe";
 import MySkills from "./components/mySkills/MySkills";
 import RecentWorks from "./components/RecentWorks/RecentWorks";
 import Footer from "./components/footer/Footer";
-import {Link, animateScroll as scroll} from "react-scroll";
+import { animateScroll as scroll} from "react-scroll";
 import Typewriter from 'typewriter-effect';
 
 type MenuType = {
