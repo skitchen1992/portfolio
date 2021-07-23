@@ -7,8 +7,8 @@ const AboutMe = () => {
     const title: string = "About me"
     const description: string = "Junior react developer based in Russia"
     return (
-        <div className={s.wrapper}>
-            <section id={"AboutMe"}>
+        <div id={"AboutMe"} className={s.wrapper}>
+            <section >
                 <ContainerTitle title={title} description={description}/>
                 <div className={s.aboutMe}>
                     <div className={s.photo}>

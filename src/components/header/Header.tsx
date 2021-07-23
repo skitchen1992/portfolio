@@ -9,6 +9,7 @@ type MenuType = {
     active: boolean
     isBurgerActive: () => void
     isHeader: boolean
+    scrollToHeader:()=>void
 }
 
 const Header = (props: MenuType) => {
@@ -22,10 +23,10 @@ const Header = (props: MenuType) => {
         <div className={finalClassHeader}>
             <section>
                 <nav className={s.nav}>
-                    <div><a className={finalClassLogo} href="#">H.</a></div>
+                    <div><a className={finalClassLogo} onClick={props.scrollToHeader} href="#">H.</a></div>
                     <div className={s.topMenu}>
                         <ul className={s.ul}>
-                            {props.items.map(el => <li><Link offset={-190} spy to={el.href} activeClass={s.active}
+                            {props.items.map(el => <li><Link offset={-78} spy to={el.href} activeClass={s.active}
                                                              className={finalClassNav} href="#">{el.title}</Link></li>)}
                         </ul>
                     </div>

@@ -6,6 +6,8 @@ import AboutMe from "./components/aboutMe/AboutMe";
 import MySkills from "./components/mySkills/MySkills";
 import RecentWorks from "./components/RecentWorks/RecentWorks";
 import Footer from "./components/footer/Footer";
+import {Link, animateScroll as scroll} from "react-scroll";
+import Typewriter from 'typewriter-effect';
 
 type MenuType = {
     title: string,
@@ -38,16 +40,33 @@ function App() {
         return () =>
             window.removeEventListener('scroll', listenScrollEvent);
     }, []);
+    const scrollToHeader = () => {
+        scroll.scrollToTop();
+    };
 
 
     return (
         <>
             <div className={s.page}>
-                <Header items={items} active={menuActive} isBurgerActive={isBurgerActive} isHeader={isHeader}/>
+                <Header items={items} active={menuActive} isBurgerActive={isBurgerActive} isHeader={isHeader}
+                        scrollToHeader={scrollToHeader}/>
                 <Menu active={menuActive} isBurgerActive={isBurgerActive} items={items}/>
                 <section>
                     <h1 className={s.title}>
-                        React developer
+                        <Typewriter options={{
+                            autoStart: true,
+                            loop: true,
+                        }} onInit={(typewriter => {
+                            typewriter
+                                .typeString("Frontend developer")
+                                .pauseFor(2000)
+                                .deleteAll()
+                                .typeString("React developer")
+                                .pauseFor(2000)
+                                .deleteAll()
+                                .start()
+                        })}
+                        />
                     </h1>
                 </section>
             </div>
