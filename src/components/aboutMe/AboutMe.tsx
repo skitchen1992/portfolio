@@ -24,7 +24,8 @@ const AboutMe = () => {
                             a modern approach to development and a
                             collaborative team.
                             My free time is dedicated to <a className={s.a}
-                                                            href={"https://www.codewars.com/users/skitchen"} target="_blank">CodeWars</a>,
+                                                            href={"https://www.codewars.com/users/skitchen"}
+                                                            target="_blank">CodeWars</a>,
                             programming tutorials, and becoming familiar with NodeJS, because, in the future, I see
                             myself as a Full Stack Developer.
                             Ready to consider project work and full-time employment.</p>
@@ -50,7 +51,9 @@ const AboutMe = () => {
                             <div className={s.contacts}>
                                 <div className={s.aboutListRow}>
                                     <div className={s.aboutListRowTitle}>E-mail</div>
-                                    <div className={s.aboutListRowValue}><a href="mailto:skitchen1992@gmail.com?subject=Предложение о работе">skitchen1992@gmail.com</a></div>
+                                    <div className={s.aboutListRowValue}><a
+                                        href="mailto:skitchen1992@gmail.com?subject=Предложение о работе">skitchen1992@gmail.com</a>
+                                    </div>
                                 </div>
                                 <div className={s.aboutListRow}>
                                     <div className={s.aboutListRowTitle}>Phone</div>
@@ -58,11 +61,14 @@ const AboutMe = () => {
                                 </div>
                                 <div className={s.aboutListRow}>
                                     <div className={s.aboutListRowTitle}>LinkedIn</div>
-                                    <div className={s.aboutListRowValue}><a href={"https://www.linkedin.com/in/nikitalavrentev/"} target="_blank">in/NikitaLavrentev</a></div>
+                                    <div className={s.aboutListRowValue}><a
+                                        href={"https://www.linkedin.com/in/nikitalavrentev/"}
+                                        target="_blank">in/NikitaLavrentev</a></div>
                                 </div>
                                 <div className={s.aboutListRow}>
                                     <div className={s.aboutListRowTitle}>Telegram</div>
-                                    <div className={s.aboutListRowValue}><a href="tg://resolve?domain=niklavrentev">@niklavrentev</a></div>
+                                    <div className={s.aboutListRowValue}><a
+                                        href="tg://resolve?domain=niklavrentev">@niklavrentev</a></div>
                                 </div>
                             </div>
                         </div>

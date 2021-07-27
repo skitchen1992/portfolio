@@ -29,8 +29,8 @@ const RecentWorks = () => {
             logo: Counter,
             title: "Counter",
             text: "The project is written using React, Redux, Hooks",
-            demo: "",
-            code: '',
+            demo: "https://skitchen1992.github.io/reduxcounter/",
+            code: 'https://github.com/skitchen1992/reduxcounter',
         },
         {
             logo: ReactTasks,
