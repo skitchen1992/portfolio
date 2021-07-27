@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.241c37a2.chunk.css",
-    "main.js": "/portfolio/static/js/main.446898df.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.446898df.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.3a73c543.chunk.css",
+    "main.js": "/portfolio/static/js/main.480374f1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.480374f1.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.098142c2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.098142c2.js.map",
     "static/js/2.424677b3.chunk.js": "/portfolio/static/js/2.424677b3.chunk.js",
@@ -10,20 +10,24 @@
     "static/js/3.604bd15c.chunk.js": "/portfolio/static/js/3.604bd15c.chunk.js",
     "static/js/3.604bd15c.chunk.js.map": "/portfolio/static/js/3.604bd15c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.241c37a2.chunk.css.map": "/portfolio/static/css/main.241c37a2.chunk.css.map",
+    "static/css/main.3a73c543.chunk.css.map": "/portfolio/static/css/main.3a73c543.chunk.css.map",
     "static/js/2.424677b3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.424677b3.chunk.js.LICENSE.txt",
     "static/media/Photo.9585c174.jpg": "/portfolio/static/media/Photo.9585c174.jpg",
+    "static/media/counter.aa2f371d.jpg": "/portfolio/static/media/counter.aa2f371d.jpg",
     "static/media/cssLogo.0950c10a.svg": "/portfolio/static/media/cssLogo.0950c10a.svg",
     "static/media/githubLogo.c57108f5.svg": "/portfolio/static/media/githubLogo.c57108f5.svg",
     "static/media/javascriptLogo.c173ee23.svg": "/portfolio/static/media/javascriptLogo.c173ee23.svg",
     "static/media/reactLogo.ee5e4a8f.svg": "/portfolio/static/media/reactLogo.ee5e4a8f.svg",
+    "static/media/react_tasks.4c117f18.jpg": "/portfolio/static/media/react_tasks.4c117f18.jpg",
     "static/media/reduxLogo.9dd5b17e.svg": "/portfolio/static/media/reduxLogo.9dd5b17e.svg",
-    "static/media/App.module.css": "/portfolio/static/media/slide-bg-1.e2b1cc2b.jpg"
+    "static/media/App.module.css": "/portfolio/static/media/slide-bg-1.e2b1cc2b.jpg",
+    "static/media/socialNetwork.6ffad188.jpg": "/portfolio/static/media/socialNetwork.6ffad188.jpg",
+    "static/media/todolist.4cf8d02e.jpg": "/portfolio/static/media/todolist.4cf8d02e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.098142c2.js",
     "static/js/2.424677b3.chunk.js",
-    "static/css/main.241c37a2.chunk.css",
-    "static/js/main.446898df.chunk.js"
+    "static/css/main.3a73c543.chunk.css",
+    "static/js/main.480374f1.chunk.js"
   ]
 }
