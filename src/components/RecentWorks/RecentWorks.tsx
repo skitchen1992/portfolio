@@ -22,8 +22,8 @@ const RecentWorks = () => {
             logo: TaskManager,
             title: "Task Manager",
             text: "The project is written using React, Redux, TS, RestAPI, Thunk, Material UI, Hooks, Class Components.",
-            demo: "",
-            code: '',
+            demo: "https://skitchen1992.github.io/ToDoListOnReactTypeScript/",
+            code: 'https://github.com/skitchen1992/ToDoListOnReactTypeScript',
         },
         {
             logo: Counter,
