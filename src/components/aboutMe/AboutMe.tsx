@@ -24,7 +24,7 @@ const AboutMe = () => {
                             a modern approach to development and a
                             collaborative team.
                             My free time is dedicated to <a className={s.a}
-                                                            href={"https://www.codewars.com/users/skitchen"}>CodeWars</a>,
+                                                            href={"https://www.codewars.com/users/skitchen"} target="_blank">CodeWars</a>,
                             programming tutorials, and becoming familiar with NodeJS, because, in the future, I see
                             myself as a Full Stack Developer.
                             Ready to consider project work and full-time employment.</p>
