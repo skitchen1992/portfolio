@@ -11,37 +11,37 @@ import githubLogo from "../../img/Logo/githubLogo.svg"
 
 const MySkills = () => {
     const title: string = "My skills"
-    const description: string = "Some text"
+    const description: string = "Technologies I use"
     const mySkills = [
         {
             logo: reactLogo,
-            title: "some title",
-            text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+            title: "React",
+            text: "I use class and function components. Reusable components, React Router. Really like hooks. Use local state depending on the situation."
         },
         {
             logo: reduxLogo,
-            title: "some title",
-            text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+            title: "Redux",
+            text: "Redux helps me write applications that behave consistently, run in different environments (client, server, and native), and are easy to test. I only use it in scalable applications."
         },
         {
             logo: typescriptLogo,
-            title: "some title",
-            text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+            title: "TypeScript",
+            text: "I use TypeScript in all my projects. It really helps you find bugs quickly and speeds up development."
         },
         {
             logo: javascriptLogo,
-            title: "some title",
-            text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+            title: "JavaScript",
+            text: "I use modern ES6 syntax in my projects, but I also know older syntax.  I supplement my knowledge from books and articles to solve problems more succinctly."
         },
         {
             logo: cssLogo,
-            title: "some title",
-            text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+            title: "CSS",
+            text: "I know both native CSS and preprocessors. Animations are also used in my projects to bring applications to life."
         },
         {
             logo: githubLogo,
-            title: "some title",
-            text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+            title: "GitHub",
+            text: "I have experience with Git. Worked both independently and as part of a team."
         },
     ]
     return (

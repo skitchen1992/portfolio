@@ -59,6 +59,10 @@
     margin: 5px;
     font-size: 0.88em;
 }
+.a{
+    font-weight: bold;
+    color: #090a0c;
+}
 
 @media (max-width: 991.98px) {
     .aboutMe {
