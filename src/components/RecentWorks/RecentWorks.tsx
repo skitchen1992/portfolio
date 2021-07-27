@@ -36,8 +36,8 @@ const RecentWorks = () => {
             logo: ReactTasks,
             title: "React tasks",
             text: "The project is written using React, Redux, TS, RestAPI, Thunk, Unit Tests",
-            demo: "",
-            code: '',
+            demo: "https://skitchen1992.github.io/tasks",
+            code: 'https://github.com/skitchen1992/tasks',
         },
     ]
     return (
