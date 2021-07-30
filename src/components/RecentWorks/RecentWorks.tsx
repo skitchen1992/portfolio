@@ -6,6 +6,7 @@ import SocialNetwork from "../../img/socialNetwork.jpg"
 import TaskManager from "../../img/todolist.jpg"
 import Counter from "../../img/counter.jpg"
 import ReactTasks from "../../img/react_tasks.jpg"
+import Dog from "../../img/dod.png"
 
 const RecentWorks = () => {
     const title: string = "Recent Works"
@@ -38,6 +39,14 @@ const RecentWorks = () => {
             text: "The project is written using React, Redux, TS, RestAPI, Thunk, Unit Tests",
             demo: "https://skitchen1992.github.io/tasks",
             code: 'https://github.com/skitchen1992/tasks',
+        },
+        {
+            logo: Dog,
+            title: "Give a dog",
+            text: "The project is written using React, Hooks",
+            demo: "https://skitchen1992.github.io/giveadog/",
+            code: "https://github.com/skitchen1992/giveadog",
+
         },
     ]
     return (
