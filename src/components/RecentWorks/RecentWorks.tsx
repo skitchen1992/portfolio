@@ -43,7 +43,7 @@ const RecentWorks = () => {
         {
             logo: Dog,
             title: "Give a dog",
-            text: "The project is written using React, Hooks",
+            text: "The project is written using React, Hooks, TS",
             demo: "https://skitchen1992.github.io/giveadog/",
             code: "https://github.com/skitchen1992/giveadog",
 
