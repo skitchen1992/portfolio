@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3a73c543.chunk.css",
-    "main.js": "/portfolio/static/js/main.4846f717.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4846f717.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.35728764.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.35728764.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.098142c2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.098142c2.js.map",
     "static/js/2.424677b3.chunk.js": "/portfolio/static/js/2.424677b3.chunk.js",
@@ -23,12 +23,13 @@
     "static/media/reduxLogo.9dd5b17e.svg": "/portfolio/static/media/reduxLogo.9dd5b17e.svg",
     "static/media/App.module.css": "/portfolio/static/media/slide-bg-1.e2b1cc2b.jpg",
     "static/media/socialNetwork.6ffad188.jpg": "/portfolio/static/media/socialNetwork.6ffad188.jpg",
-    "static/media/todolist.4cf8d02e.jpg": "/portfolio/static/media/todolist.4cf8d02e.jpg"
+    "static/media/todolist.4cf8d02e.jpg": "/portfolio/static/media/todolist.4cf8d02e.jpg",
+    "static/media/weather.485ffa2a.jpg": "/portfolio/static/media/weather.485ffa2a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.098142c2.js",
     "static/js/2.424677b3.chunk.js",
     "static/css/main.3a73c543.chunk.css",
-    "static/js/main.4846f717.chunk.js"
+    "static/js/main.35728764.chunk.js"
   ]
 }
