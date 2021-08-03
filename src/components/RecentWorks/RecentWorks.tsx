@@ -7,11 +7,19 @@ import TaskManager from "../../img/todolist.jpg"
 import Counter from "../../img/counter.jpg"
 import ReactTasks from "../../img/react_tasks.jpg"
 import Dog from "../../img/dod.png"
+import Weather from "../../img/weather.jpg"
 
 const RecentWorks = () => {
     const title: string = "Recent Works"
     const description: string = "Follow the link to the site or just look at the code."
     const myWorks = [
+        {
+            logo: Weather ,
+            title: "Weather App",
+            text: "The project is written using React, Redux, TS, RestAPI, Thunk, bulma, Hooks",
+            demo: "https://skitchen1992.github.io/weather_app/",
+            code: 'https://github.com/skitchen1992/weather_app',
+        },
         {
             logo: SocialNetwork,
             title: "Social network",
