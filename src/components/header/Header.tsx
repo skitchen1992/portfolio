@@ -23,7 +23,7 @@ const Header = (props: MenuType) => {
         <div className={finalClassHeader}>
             <section>
                 <nav className={s.nav}>
-                    <div><a className={finalClassLogo} onClick={props.scrollToHeader} href="#">H.</a></div>
+                    <div><a className={finalClassLogo} onClick={props.scrollToHeader} href="#">N.</a></div>
                     <div className={s.topMenu}>
                         <ul className={s.ul}>
                             {props.items.map(el => <li><Link offset={-78} spy to={el.href} activeClass={s.active}
