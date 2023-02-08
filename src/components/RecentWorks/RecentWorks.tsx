@@ -4,8 +4,6 @@ import ContainerTitle from "../containerTitle/ContainerTitle";
 import Works from "./works/Works";
 import SocialNetwork from "../../img/socialNetwork.jpg"
 import TaskManager from "../../img/todolist.jpg"
-import Counter from "../../img/counter.jpg"
-import ReactTasks from "../../img/react_tasks.jpg"
 import Dog from "../../img/dod.png"
 import Weather from "../../img/weather.jpg"
 
@@ -13,6 +11,13 @@ const RecentWorks = () => {
     const title: string = "Recent Works"
     const description: string = "Follow the link to the site or just look at the code."
     const myWorks = [
+        {
+            logo: SocialNetwork ,
+            title: "Chat App",
+            text: "The project is written using native JS, TS. Used patterns singleton, event bus. Technologies webPack, mocha, express, pug",
+            demo: "https://chatnl.onrender.com/",
+            code: 'https://github.com/skitchen1992/Chat',
+        },
         {
             logo: Weather ,
             title: "Weather App",
@@ -35,26 +40,11 @@ const RecentWorks = () => {
             code: 'https://github.com/skitchen1992/ToDoListOnReactTypeScript',
         },
         {
-            logo: Counter,
-            title: "Counter",
-            text: "The project is written using React, Redux, Hooks",
-            demo: "https://skitchen1992.github.io/reduxcounter/",
-            code: 'https://github.com/skitchen1992/reduxcounter',
-        },
-        {
-            logo: ReactTasks,
-            title: "React tasks",
-            text: "The project is written using React, Redux, TS, RestAPI, Thunk, Unit Tests",
-            demo: "https://skitchen1992.github.io/tasks",
-            code: 'https://github.com/skitchen1992/tasks',
-        },
-        {
             logo: Dog,
             title: "Give a dog",
             text: "The project is written using React, Hooks, TS",
             demo: "https://skitchen1992.github.io/giveadog/",
             code: "https://github.com/skitchen1992/giveadog",
-
         },
     ]
     return (
