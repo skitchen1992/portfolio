@@ -12,14 +12,14 @@ const RecentWorks = () => {
     const description: string = "Follow the link to the site or just look at the code."
     const myWorks = [
         {
-            logo: SocialNetwork ,
+            logo: SocialNetwork,
             title: "Chat App",
-            text: "The project is written using native JS, TS. Used patterns singleton, event bus. Technologies webPack, mocha, express, pug",
+            text: "The project is written using native JS, TS, web socket. Used patterns singleton, event bus. Technologies webPack, mocha, express, pug",
             demo: "https://chatnl.onrender.com/",
             code: 'https://github.com/skitchen1992/Chat',
         },
         {
-            logo: Weather ,
+            logo: Weather,
             title: "Weather App",
             text: "The project is written using React, Redux, TS, RestAPI, Thunk, bulma, Hooks",
             demo: "https://skitchen1992.github.io/weather_app/",
